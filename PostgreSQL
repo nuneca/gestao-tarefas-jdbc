@@ -1,0 +1,8 @@
+CREATE DATABASE tarefas;
+
+CREATE TABLE tarefas (
+ id SERIAL PRIMARY KEY,
+ titulo VARCHAR(100),
+ categoria VARCHAR(50),
+ status VARCHAR(20)
+);
